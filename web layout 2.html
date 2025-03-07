@@ -1,0 +1,694 @@
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        .main{
+            display: flex;
+            width: 100%;
+            height: 50px;
+            background-color:  #ecf3fc;
+        }
+        .phone{
+            margin-top: 5px;
+            margin-left: 120px;
+        }
+        .call{
+            margin-left: 20px;
+        }
+        .icon1{
+            margin-left: 180px;
+            display: flex;
+            height: 40px;
+        }
+        .icon2{
+            margin-left: 10px;
+            height: 40px;
+            display: flex;
+        }
+        .icon3{
+            margin-left: 10px;
+            height: 40px;
+            display: flex;
+        }
+        .icon4{
+            margin-left: 10px;
+            height: 40px;
+            display: flex;
+        }
+        .option{
+            margin-left: 160px;
+            border-radius: 24px;
+            border-color: white;
+            border-style: solid;
+            width: 150px;
+            height: 30px;
+            margin-top: 8px;
+            border-color:rgb(24, 54, 97);
+            color: white;
+            background-color: rgb(24, 54, 97);
+        }         
+        .text{
+            margin-left: 50px;
+            display: flex;
+        }   
+        .main2{
+            width: 100%;
+            height: 100px;
+            background-color: rgb(255, 252, 252);
+        }
+        .Email-photo{
+            display: flex;
+            margin-left: 50px;
+            padding-top: 45px;
+            height: 30px;
+            width: 30px;
+            background-repeat: no-repeat;
+            padding-left:40px;
+        }
+        .Email{
+            margin-top: 2px;
+            display: flex;
+            color: rgb(0, 0, 0);
+            margin-left: 10px;
+            font-size: 26px;
+        }
+        .logo{
+            display: flex;
+            margin-left: 470px;
+            margin-top: -65px;
+        }
+        .shopping{
+            display: flex;
+            float: left;
+            margin-left: 910px;
+            margin-top: -45px;
+        }
+        .order{
+            display: flex;
+            border-radius: 14px;
+            border-color:rgb(24, 54, 97);
+            color: rgb(255, 255, 255) ;
+            margin-left: 950px;
+            margin-top: -42px;
+            border-style: solid;
+            width: 80px;
+            text-align: center;
+            background-color:rgb(24, 54, 97) ;
+        }
+        .bar{
+            display: flex;
+            align-items: center;
+            list-style: none;
+            text-transform: none;
+            font-size: 20px;
+            line-height: 15px;
+             background-color:rgb(24, 54, 97);
+             color: white;
+             height:100px;
+             width: 100%;
+        }
+        .bar > a
+        {
+            text-decoration: none;
+        }
+        .let1{
+            margin-left: 100px;
+        }
+        .let2{
+            margin-left: 40px;
+            color: white;
+        }
+        .search{
+            margin-left: 40px;
+            border-radius: 14px;
+            border-style: solid;
+            width: 25%;
+            height: 30PX;
+            border-color: white;
+            margin-left: 120px;
+            background-repeat: no-repeat;
+        }
+        .main3{
+            margin-top: -70px;
+            background-image: url(../images/banner.jpg);
+            height: 100%;
+            width: 100%;
+            background-repeat: no-repeat;
+        }
+        .text2{
+            font-family: Roboto, sans-serif;
+            color: #003049;
+            padding-top: 100px;
+            padding-left: 150px;
+            font-weight: 700;
+            font-size: 75px;
+        }
+        .text3{
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 75px;
+            margin-top: -70px;
+            margin-left: 120px;
+            font-weight: bold;
+            font-size: 90px;
+            color: #F5B700; 
+        }
+        .text4{
+            margin-top: -70px;
+            margin-left: 100px;
+            font-family: Arial, sans-serif;
+            font-size: 40px;
+        }
+        .text5{
+            height: 50px;
+            width: 200px;
+            border-radius: 24px;
+            border-style: solid;
+            background-color: blue;
+            color: white;
+            border-color: white;
+            margin-left: 150px;
+        }
+        .text5:hover{
+            background-color: yellow;
+            color: rgb(22, 21, 21);
+            border-color: white;
+        }
+        .contener{
+            background-color: rgb(217, 232, 6);
+            width: 16.6%;
+            height: 30.6%;
+            display: flex;
+            float: left;
+        }
+        .contener1{
+           align-items: center;
+           text-align: center;
+           margin-top: 50px;
+           margin-left: 50px;
+        }
+        .contener2{
+        background-color:  #003049;
+        width: 16.6%;
+        height: 30.6%;
+        float: left;
+        display: flex;
+        }
+        .contener3{
+            background-color: rgb(217, 232, 6);
+            width: 16.6%;
+            height: 30.6%;
+            display: flex;
+            float: left;
+        }
+        .contener4{
+            background-color:  #003049;
+            width: 16.6%;
+            height: 30.6%;
+            float: left;
+            display: flex;
+        }
+        .contener5{
+            background-color: rgb(217, 232, 6);
+            width: 16.6%;
+            height: 30.6%;
+            display: flex;
+            float: left;
+        }
+        .contener6{
+            background-color:  #003049;
+            width: 16.6%;
+            height: 30.6%;
+            float: left;
+            display: flex;
+        }
+        .back{
+            background-image: url(../images/product_bg.jpg);
+            width: 100%;
+            height: 200%;
+            margin-top: 50px;
+        }
+        .tital{
+            margin-top: 250px;
+            margin-left: 150px;
+            font-size:35px;
+            font-family: 'Arial', sans-serif;
+        }
+        .line{
+            background-color: #F5B700;
+            height: 5px;
+            width: 80%;
+            margin-left: 150px;
+            margin-top: -30px;
+        }
+        .product{
+            height: 20%;
+            width: 15%;
+            background-color: #F0F0F0;
+            margin-top: 60px;
+            margin-left: 150px;
+        }
+        .product2{
+            height: 20%;
+            width: 15%;
+            background-color: #F0F0F0;
+            margin-top: 60px;
+            margin-top: -220px;
+            margin-left: 50px;
+            float: left;
+        }
+        .p1{
+            float: left;
+            display: flex;
+        }
+        .p2{
+            float: left;
+            display: flex;
+        }
+        .product3{
+            height: 20%;
+            width: 15%;
+            background-color: #F0F0F0;
+            margin-top: 60px;
+            margin-left: 50px;
+            float: left;
+            margin-top: -220px;
+        }
+        .p3{
+            margin-top: 60px;
+            float: left;
+            display: flex;
+        }
+        .p4{
+            float: left;
+            display: flex;
+        }
+        .product4{
+            height: 18%;
+            width: 15%;
+            background-color: #F0F0F0;
+            margin-top: 100px;
+            margin-left: 150px;  
+        }
+        .p4{
+            margin-top: 50px;
+            float: left;
+            display: flex;
+        }
+        .product5{
+            height: 18%;
+            width: 15%;
+            background-color: #F0F0F0;
+            margin-top: 100px;
+            margin-left: 150px;  
+        }
+        .p5{
+            margin-top: 50px;
+            float: left;
+            display: flex;
+        }
+        .button2{
+            border-radius: 24px;
+            border-color: white;
+            border-style: solid;
+            width: 150px;
+            height: 30px;
+            margin-top: 8px;
+            border-color:rgb(24, 54, 97);
+            color: white;
+            background-color: rgb(24, 54, 97);
+            margin-top: 120px;
+            margin-right:25px;
+            align-items: center;
+            margin-left: -525px;
+        }
+        .button2:hover{
+            background-color: yellow;
+            color: rgb(22, 21, 21);
+            border-color: white;
+        }
+        .per1{
+            margin-top: 150px;
+            margin-left: 150px;
+            font-size: 35px;
+        }
+        .border{
+            height: 5px;
+            width: 70%;
+            background-color: #F5B700;
+            margin-left: 150px;
+            margin-top: -30px;
+            margin-bottom: 50px;
+        }
+        .per2{
+            margin-left: 150px;
+            display: flex;
+            float: left;
+        }
+        h2{
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .per4{
+            margin-left:225px;
+            font-size: 15px;        
+            line-height: 1.6;
+        }
+        .gh{
+            margin-left: 300px;
+        }
+        .main8{
+            margin-left: 250px;
+        }
+        .per5{
+            margin-left: 50px;
+        }
+        .lk1{
+            margin-left: 200px;
+            margin-top: 150px;
+            font-size: 30px;
+            font-family: Arial, sans-serif;
+            color: rgb(9, 8, 8);
+            display: flex;
+            float: left;
+        }
+        .lk2{
+            margin-top: 170px;
+            margin-left: 100px;
+            width: 30%;
+            height: 6%;
+            border-color: #5d5d60;
+            border-radius: 24px;
+            border-style: solid;
+        }
+        .lk3{
+            background-color: rgb(24, 54, 97);
+            color: #e2e7e9;
+            border-radius: 14px;
+            border-style: solid;
+            width: 12%;
+            height: 6%;
+            margin-left: 325px;
+            margin-bottom: 250px;
+        }
+        .main10{
+            height: 550px;
+            width: 100%;
+            background-color: rgb(24, 54, 97);
+        }
+        .cv1{
+            color: white;
+            line-height: 1.6;
+            padding-top: 100px;
+            padding-left: 100px;
+            display: flex;
+            float: left;
+        }
+        .cv2{
+            color: white;
+            line-height: 1.6;
+            padding-top: 100px;
+            padding-left: 100px;
+            display: flex;
+            float: left;
+        }
+        .df{
+            margin-left: 100px;
+            background-color: white;
+            height: 40%;
+            width: 25%;
+            border-color: white;
+            border-radius: 24px;
+            border-style: solid;
+            float: left;
+            margin-top: -170px;
+        }
+        .ok{
+            margin-left: 120px;
+            margin-top: 80px;
+        }
+        .ok1{
+            margin-left: 120px;
+        }
+        .df1{
+            margin-left: 50px;
+            background-color:white;
+            height: 40%;
+            width: 25%;
+            border-color: white;
+            border-radius: 24px;
+            border-style: solid;
+            float: left;
+            margin-top: -150px;
+
+        }
+        .df2{
+            margin-left: 860px;
+            background-color:white;
+            height: 40%;
+            width: 25%;
+            border-color: white;
+            border-radius: 24px;
+            border-style: solid;
+            float: left;
+            margin-top: -250px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img class="phone" src="../images/phone-call.png" height="35px" width="35px">
+        <p class="call">Call us: 0126 - 922 - 0162</p>
+        <img class="icon1" src="../images/9034971_logo_facebook_icon.png">
+        <img class="icon2" src="../images/5279123_tweet_twitter_twitter logo_icon.png">
+        <img class="icon3" src="../images/734393_in_linked_media_online_social_icon.png">
+        <img class="icon4" src="../images/5279112_camera_instagram_social media_instagram logo_icon.png">
+ <button  class="option">English</button>
+<p class="text">
+  Open hour: 8.00 - 18.00</p>
+</div>
+<div class="main2">
+    <div class="Email-photo">
+        <img src="../images/email.png">
+        <div>
+        <p class="Email">Email@domain.com</p>
+        <img class="logo" src="../images/logo.png">
+        <img class="shopping" src="../images/shopping.png">
+        <p class="order">Order Now</p>
+    </div>
+    </div>
+</div>
+<div class="bar">
+                
+    <a class="let2"  href="#">HOME</a>
+    <a class="let2" href="About US.html">ABOUT US</a>
+    <a class="let2" href="#">PRODUCT</a>
+    <a class="let2" href="#">FASHION</a>
+    <a class="let2" href="#">NEWS</a>
+    <a class="let2" href="#">CONTACT US</a>
+    <input class="search" type="search" placeholder="search">
+   </div>
+   <div class="main3">
+    <div>
+    <p class="text2">Romofyi</p>
+</div>
+<div>
+    <p class="text3">Trands 2045</p>
+</div>
+<div>
+    <p class="text4">A huge fashion collection for ever</p>
+    <div>
+    <button class="text5">SHOP NOW</button>
+</div>
+</div>
+<div>
+    <img src="../images/ban_img.png" height="92%" width="30%" style="margin-top:-400px; margin-left: 800px; ">
+    <div class="banner"></div>
+   </div>
+</div>
+<div class="contener">
+    <img class="contener1" src="../images/shoes.png" height="40%" width="40%">
+</div>
+<div class="contener2 ">
+    <img class="contener1" src="../images/underwear.png" height="40%" width="40%">
+</div>
+<div class="contener3">
+    <img class="contener1" src="../images/pent.png" height="40%" width="40%">
+</div>
+<div class="contener4">
+    <img class="contener1" src="../images/t_shart.png" height="40%" width="40%">
+</div>
+<div class="contener5" >
+    <img class="contener1" src="../images/jakit.png" height="40%" width="40%">
+</div>
+<div class="contener6" >
+<img class="contener1" src="../images/helbet.png" height="40%" width="40%">
+</div>
+<div class="back">
+    <P class="tital">Featured Products</P>
+    <div class="line"></div>
+    <div class="main4">
+    <div class="product">
+        <img class="img1" src="../images/shoes1.png" height="100%" width="100%">
+        <p class="p1">Short Openwork Cardigan $120.00</p>
+    </div>
+    <div class="product2" >
+        <img class="img1" src="../images/shoes2.png" height="100%" width="100%">
+    </div>
+    <div class="product3" >
+        <img class="img1" src="../images/shoes3.png" height="80%" width="100%">
+        <p class="p3">Short Openwork Cardigan $140.00</p>
+    </div>
+    <div class="product3" >
+        <img class="img1" src="../images/shoes4.png" height="80%" width="100%">
+        <p class="p3">Short Openwork Cardigan $150.00</p>
+    </div>
+    <div class="product3" >
+        <img class="img1" src="../images/shoes5.png" height="80%" width="100%">
+        <p class="p3">Short Openwork Cardigan $160.00</p>
+    </div> 
+    <div class="product4" >
+        <img class="img1" src="../images/tisat1.png" height="80%" width="100%">
+        <p class="p4">Short Openwork Cardigan $160.00</p>
+    </div> 
+    <div class="product3" >
+        <img class="img1" src="../images/tisat2.png" height="80%" width="100%">
+        <p class="p3">Short Openwork Cardigan $160.00</p>
+    </div> 
+    <div class="product3" >
+        <img class="img1" src="../images/tisat3.png" height="80%" width="100%">
+        <p class="p3">Short Openwork Cardigan $160.00</p>
+    </div> 
+    <div class="product3" >
+        <img class="img1" src="../images/tisat4.png" height="80%" width="100%">
+        <p class="p3">Short Openwork Cardigan $160.00</p>
+    </div> 
+    <div class="product5" >
+        <img class="img1" src="../images/mix1.png" height="80%" width="100%">
+        <p class="p5">Short Openwork Cardigan $160.00</p>
+    </div> 
+    <div class="product3" >
+        <img class="img1" src="../images/mix2.png" height="80%" width="100%">
+        <p class="p3">Short Openwork Cardigan $160.00</p>
+    </div> 
+    <div class="product3" >
+        <img class="img1" src="../images/mix3.png" height="80%" width="100%">
+        <p class="p3">Short Openwork Cardigan $160.00</p>
+    </div>   <div class="product3" >
+        <img class="img1" src="../images/mix4.png" height="80%" width="100%">
+        <p class="p3">Short Openwork Cardigan $160.00</p>
+    </div> 
+    <div>
+        <button class="button2">See More</button>
+    </div>
+</div>
+</div>
+</div>
+<div class="main6">
+    <img src="../images/fashion.jpg" height="100%" width="100%">
+</div>
+<div class="main6">
+    <p class="per1">Letest News</p>
+    <div class="border"></div>
+    <div class="main7" >
+        <img class="per2" src="../images/news_img1.jpg" height="35%" width="30%">
+        <div class="main8"><br>
+        <h2>Specimen book. It has survived not only five</h2>
+          <button>7 July 2045<button class="gh">LikeComment</button></button> 
+           <P class="per4"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br>
+              when an unknown printer took a galley of type and scrambled it to make a type<br>
+              <span class="per5">specimen book.</span></P>
+            </div>
+            <img class="per2" src="../images/news_img2.jpg" height="35%" width="30%">
+            <div class="main8"><br>
+            <h2>Specimen book. It has survived not only five</h2>
+              <button>7 July 2045<button class="gh">LikeComment</button></button> 
+               <P class="per4"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br>
+                  when an unknown printer took a galley of type and scrambled it to make a type<br>
+                  <span class="per5">specimen book.</span></P>
+                </div> <img class="per2" src="../images/news_img3.jpg" height="35%" width="30%">
+                <div class="main8"><br>
+                <h2>Specimen book. It has survived not only five</h2>
+                  <button>7 July 2045<button class="gh">LikeComment</button></button> 
+                   <P class="per4"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br>
+                      when an unknown printer took a galley of type and scrambled it to make a type<br>
+                      <span class="per5">specimen book.</span></P>
+                    </div>
+            </div>
+</div>
+        <div class="main9">
+            <p class="lk1">Subscribe To The <br>
+                Newsletter</p>
+                <input class="lk2" type="search" placeholder="Enter Your Email"><br>
+                <button class="lk3" class="lk4">Subscribe</button>
+        </div>
+        <div>
+            <div class="df">
+                <img class="ok" src="../images/icon_mony.png">
+                <P class="ok1">Money Back</P>
+            </div>
+            <div class="df1">
+                <img class="ok" src="../images/icon_gift.png">
+                <P class="ok1">Special gift</P>
+            </div>
+            <div class="df2">
+                <img class="ok" src="../images/icon_car.png">
+                <P class="ok1">Free shipping</P>
+            </div>
+        </div>
+        <div class="main10">
+            <p class="cv1">
+               INFORMATION<br>
+                There are many variations <br>
+                of passages of Lorem<br>
+                 Ipsum available, but the<br>
+                  majority have suffered <br>
+                  alteration in some form, <br>
+                  by injected humour, or<br>
+                   randomised words which<br>
+                    don't look even slightly <br>
+                    believable
+            </p>
+            <p class="cv2">
+                MY ACCOUNT<br>
+                 There are many variations <br>
+                 of passages of Lorem<br>
+                  Ipsum available, but the<br>
+                   majority have suffered <br>
+                   alteration in some form, <br>
+                   by injected humour, or<br>
+                    randomised words which<br>
+                     don't look even slightly <br>
+                     believable
+             </p>
+             <p class="cv2">
+                ABOUT<br>
+                 There are many variations <br>
+                 of passages of Lorem<br>
+                  Ipsum available, but the<br>
+                   majority have suffered <br>
+                   alteration in some form, <br>
+                   by injected humour, or<br>
+                    randomised words which<br>
+                     don't look even slightly <br>
+                     believable
+             </p>  <p class="cv2">
+                CONTACTS<br>
+                 There are many variations <br>
+                 of passages of Lorem<br>
+                  Ipsum available, but the<br>
+                   majority have suffered <br>
+                   alteration in some form, <br>
+                   by injected humour, or<br>
+                    randomised words which<br>
+                     don't look even slightly <br>
+                     believable
+             </p>
+        </div>
+</body>
+</html>
